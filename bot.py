@@ -250,4 +250,4 @@ async def stock(interaction: discord.Interaction):
     embed.set_footer(text=config["messages"]["embed-footer"])
     await interaction.response.send_message(embed=embed)
 
-bot.run(config['token'])
+bot.run(config['token']) omamamamama
